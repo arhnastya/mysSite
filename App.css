@@ -1,0 +1,54 @@
+body{
+    overflow-x: hidden;
+}
+.App {
+    text-align: left;
+    background-color: white;
+    min-height: 100vh;
+}
+
+.App-general {
+    text-align: left;
+    background-color: red;
+    min-height: 100vh;
+}
+
+.App-body {
+    min-height: 20vh;
+}
+
+.App-header {
+    height: 10vh;
+    background-color: red;
+    background-size: cover;
+    background-position: center;
+}
+
+.App-link {
+    margin-left: 10%;
+    margin-top: 30px;
+    color: red;
+    font-size: large;
+    font-weight: 1000;
+    float: left;
+}
+
+.font-app-link {
+    height: 80px;
+    weight: 1250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.welcome-link {
+    font-size: 7vh;
+    color: white;
+    margin-left: 40%;
+    margin-top: 100px;
+}
+
+h2 {
+    font-size: 5vh;
+    color: white;
+    font-family: sans-serif;
+}

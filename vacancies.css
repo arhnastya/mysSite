@@ -1,0 +1,103 @@
+.Vac-container {
+    display: flex;
+    margin: 0 48px;
+}
+@media screen and (max-width: 720px){
+    .Vac-container{
+        flex-direction: column;
+    }
+}
+.Vac__img{
+    height: 300px;
+    width: 500px;
+}
+@media screen and (max-width: 585px){
+    .Vac__title{
+        font-size: 48px;
+    }
+    .Vac__img{
+        margin: 0 auto;
+        width: 450px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .Vac__img{
+        margin: 0;
+        width: auto;
+        height: auto;
+    }
+}
+.titles{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+}
+
+.Vac-text{
+    color: rgb(148, 18, 21);
+    align-self: center;
+    font-size: 18px;
+    height: inherit;
+    margin: 0;
+    margin-top: 24px;
+}
+
+.Vac {
+    text-align: left;
+    background-color: rgb(251, 245, 243);
+    min-height: 100vh;
+    float: left;
+}
+
+@media screen and (max-width: 450px){
+    .Vac{
+        float: none;
+    }
+}
+.Vac-link-left {
+    margin-left: 5%;
+    margin-top: 30px;
+    color: black;
+    font-size: medium;
+    font-weight: 1000;
+    float: left;
+}
+@media screen and (max-width: 729px) {
+    .VAC-link-left{
+        margin-left: 0;
+    }
+}
+
+.Vac-link-right {
+    margin-right: 5%;
+    margin-top: 30px;
+    color: black;
+    font-size: medium;
+    font-weight: 1000;
+    float: right;
+}
+@media screen and (max-width: 729px) {
+    .Vac-link-right{
+        margin-right: 0;
+    }
+}
+
+.Vac-header {
+    height: 10vh;
+    background-color: rgb(251, 245, 243);
+    background-size: cover;
+    background-position: center;
+}
+@media screen and (max-width: 729px) {
+    .Vac-header{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+}
+.Vac__title{
+    margin: 0 auto;
+    padding: 0;
+    color: black;
+}

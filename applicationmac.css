@@ -1,0 +1,101 @@
+.AppMac-container {
+    display: flex;
+    margin: 0 48px;
+}
+@media screen and (max-width: 720px){
+    .AppMac-container{
+        flex-direction: column;
+    }
+}
+.AppMac__img{
+    height: 380px;
+    width: 530px;
+}
+.titles{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+}
+@media screen and (max-width: 585px){
+    .AppMac__title{
+        font-size: 48px;
+    }
+    .AppMac__img{
+        margin: 0 auto;
+        width: 450px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .AppMac__img{
+        margin: 0;
+        width: auto;
+        height: auto;
+    }
+}
+.AppMac-text{
+    color: rgb(148, 18, 21);
+    align-self: center;
+    font-size: 18px;
+    height: inherit;
+    margin: 0;
+    margin-top: 24px;
+}
+
+.AppMac {
+    text-align: left;
+    background-color: rgb(251, 245, 243);
+    min-height: 100vh;
+    float: left;
+}
+@media screen and (max-width: 450px){
+    .AppMac{
+        float: none;
+    }
+}
+.AppMac-link-left {
+    margin-left: 5%;
+    margin-top: 30px;
+    color: black;
+    font-size: medium;
+    font-weight: 1000;
+    float: left;
+}
+@media screen and (max-width: 729px) {
+    .AppMac-link-left{
+        margin-left: 0;
+    }
+}
+.AppMac-link-right {
+    margin-right: 5%;
+    margin-top: 30px;
+    color: black;
+    font-size: medium;
+    font-weight: 1000;
+    float: right;
+}
+@media screen and (max-width: 729px) {
+    .AppMac-link-right{
+        margin-right: 0;
+    }
+}
+
+.AppMac-header {
+    height: 10vh;
+    background-color: rgb(251, 245, 243);
+    background-size: cover;
+    background-position: center;
+}
+@media screen and (max-width: 729px) {
+    .AppMac-header{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+}
+
+.AppMac__title{
+    margin: 0 auto;
+    padding: 0;
+    color: black;
+}
